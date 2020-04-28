@@ -1,5 +1,5 @@
 resource "aws_db_option_group" "main" {
-  name_prefix              = "optgrp-${var.region_id}-${var.environment}-${var.cost_centre}-vpc${var.vpc_seq_id}-${var.app_service}-${var.seq_id}"
+  name              = "optgrp-${var.region_id}-${var.environment}-${var.cost_centre}-vpc${var.vpc_seq_id}-${var.app_service}-${var.seq_id}"
   option_group_description = var.option_group_description
   engine_name              = var.db_option_group_engine_name
   major_engine_version     = var.db_option_group_major_engine_version
