@@ -1,5 +1,4 @@
-Important Feature of this module
-
+Example
  ```
 module postgres-rds {
   source = "../../../../../terraform-aws-rds"
