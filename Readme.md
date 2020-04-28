@@ -1,6 +1,4 @@
-
-
-example 
+Important Feature of this module
 
  ```
 module postgres-rds {
